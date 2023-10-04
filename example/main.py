@@ -99,10 +99,10 @@ def plus(a,b):
 
 
 def main():
-    # find_most_liked_vk_posts(
-    #     input("VK Group URL: "),
-    #     int(input("N Posts: "))
-    # )
+    find_most_liked_vk_posts(
+        input("VK Group URL: "),
+        int(input("N Posts: "))
+    )
     plus(3,2)
 
 if __name__ == "__main__":
