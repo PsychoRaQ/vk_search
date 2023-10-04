@@ -92,13 +92,18 @@ def find_most_liked_vk_posts(search_url: str, n_posts: int) -> list[str]:
     for post in not_sorted_posts:
         print(f"Likes: {post[0]}, URL: {post[1]}")
 
+def plus(a,b):
+    print(a + b)
+    return a + b
+
+
 
 def main():
-    find_most_liked_vk_posts(
-        input("VK Group URL: "),
-        int(input("N Posts: "))
-    )
-
+    # find_most_liked_vk_posts(
+    #     input("VK Group URL: "),
+    #     int(input("N Posts: "))
+    # )
+    plus(3,2)
 
 if __name__ == "__main__":
     main()
